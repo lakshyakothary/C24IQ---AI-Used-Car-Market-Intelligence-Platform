@@ -1,4 +1,27 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
 
+# Secrets (never commit)
+.env
+
+# Secrets (never commit)
 .env
 .env.*
 !.env.example
+
+# Generated on first run
+data/c24iq.db
+data/*.csv
+models/*.pkl
+logs/
+
+# Editors, OS and backups
+.vscode/
+.idea/
+.ipynb_checkpoints/
+Thumbs.db
+.DS_Store
+*.bak

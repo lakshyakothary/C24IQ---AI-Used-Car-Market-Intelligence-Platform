@@ -1,13 +1,10 @@
-flask>=3.0.0
-flask-cors>=4.0.0
-pandas>=2.1.0
-numpy>=1.26.0
-scikit-learn>=1.4.0
-xgboost>=2.0.0
-lightgbm>=4.2.0
-plotly>=5.18.0
-scipy>=1.12.0
-statsmodels>=0.14.0
-faker>=22.0.0
-psycopg2-binary>=2.9.9
-sqlalchemy>=2.0.25
+# Runtime dependencies for C24-IQ.
+# Developed and tested with Python 3.12, Flask 3.1, pandas 3.0, NumPy 2.4,
+# scikit-learn 1.8 and XGBoost 3.4. Ranges are used so a fresh install resolves
+# on current Python versions; for fully reproducible installs, replace them with
+# the exact versions from `pip freeze`.
+flask>=3.0,<4
+pandas>=2.2,<4
+numpy>=1.26,<3
+scikit-learn>=1.4,<2
+xgboost>=2.0,<4
