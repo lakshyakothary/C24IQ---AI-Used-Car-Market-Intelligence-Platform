@@ -10,14 +10,6 @@
 
 C24-IQ predicts a fair price for a used car, flags unusual listings, projects demand, answers buyer and seller questions with a Claude-powered RAG assistant, and streams new listings to a live dashboard. It runs as one Flask app with seven interactive pages and 18 REST endpoints.
 
-<!--
-SCREENSHOTS: add PNG files to docs/screenshots/, then delete the two comment marker lines
-(the line with the opening marker and the line with the closing marker) so these images show.
-
-![Dashboard](docs/screenshots/dashboard.png)
-![Price predictor](docs/screenshots/predictor.png)
-![AI assistant](docs/screenshots/assistant.png)
--->
 
 ## What it does
 
@@ -110,7 +102,7 @@ python app.py
 
 Open http://localhost:5000. The first start generates 5,000 listings and trains the models, which is usually well under two minutes; later starts take seconds.
 
-**AI assistant (optional).** The assistant needs an Anthropic API key with credit (create one in the Claude Console under Settings, then API keys). Open `.env`, replace `your-key-here` with your key and save. Without a key everything else works, and the assistant replies with the failure reason plus the closest knowledge-base entry. Run `python test_key.py` to check the connection. Never commit `.env`.
+**AI assistant (optional).** The assistant needs an Anthropic API key with credit (create one in the Claude Console under Settings, then API keys). Create `.env`, replace `your-key-here` with your key and save. Without a key everything else works, and the assistant replies with the failure reason plus the closest knowledge-base entry. Run `python test_key.py` to check the connection. Never commit `.env`.
 
 ## How it works
 
@@ -181,4 +173,4 @@ Generated on first run and not committed: `data/c24iq.db` and `models/price_engi
 
 ## License and author
 
-MIT licensed; see [LICENSE](LICENSE). Built by Somni. [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE)
+MIT licensed; see [LICENSE](LICENSE). Built by Lakshya. www.linkedin.com/in/lakshyakothary [LinkedIn]
