@@ -1,4 +1,4 @@
-# C24-IQ: Cars24 Intelligence Quotient
+# C24-IQ:
 
 **An end-to-end ML and GenAI platform for used-car pricing, market intelligence and buyer assistance.**
 
